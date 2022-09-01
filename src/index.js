@@ -3,4 +3,3 @@ import { secondaryNav } from "./secondaryNav";
 import { displayHomePage } from "./home";
 
 
-secondaryNav();
