@@ -1,5 +1,5 @@
-import {onPageLoad} from "./onPageLoad";
-import { secondaryNav } from "./secondaryNav";
-import { displayHomePage } from "./home";
+import {onPageLoad} from "./home-page/onPageLoad";
+import { secondaryNav } from "./home-page/secondaryNav";
+import { displayHomePage } from "./home-page/home";
 
 

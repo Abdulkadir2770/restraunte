@@ -3,7 +3,7 @@ const displayHomePage = (() => {
    const content = document.querySelector("#content");
    
    const heroSection = document.createElement("div");
-   heroSection.classList.add(".hero-section");
+   heroSection.classList.add("hero-section");
    heroSection.innerHTML = `
       <div id="info">
          <h3>Welcome to Binti's Takeout</h3>
