@@ -6,9 +6,15 @@ const secondaryNav = (() => {
     const secondaryHeader = document.createElement("div");
     secondaryHeader.classList.add("secondary-nav");
     secondaryHeader.innerHTML = `
-        <div class="sn-item">Menu</div>
-        <div class="sn-item">About</div>
-        <div class="sn-item">Contact</div>
+        <div class="sn-item">
+            <a href="#">Menu</a>
+        </div>
+        <div class="sn-item">
+            <a href="#">About</a>
+        </div>
+        <div class="sn-item">
+            <a href="#">Contact</a>
+        </div>
     `;
 
 
