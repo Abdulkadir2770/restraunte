@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/home-page/footer.js":
+/*!*********************************!*\
+  !*** ./src/home-page/footer.js ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"footer\": () => (/* binding */ footer)\n/* harmony export */ });\nconst footer = (() => {\r\n    const content = document.querySelector(\"#content\");\r\n\r\n    const ft = document.createElement(\"div\");\r\n    ft.classList.add(\"footer\");\r\n    ft.innerHTML = `<h3>Created by Amadi Abdulkadir</h3>`;\r\n    \r\n    content.appendChild(ft);\r\n})();\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/home-page/footer.js?");
+
+/***/ }),
+
 /***/ "./src/home-page/home.js":
 /*!*******************************!*\
   !*** ./src/home-page/home.js ***!
@@ -46,7 +56,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_page_onPageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home-page/onPageLoad */ \"./src/home-page/onPageLoad.js\");\n/* harmony import */ var _home_page_secondaryNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-page/secondaryNav */ \"./src/home-page/secondaryNav.js\");\n/* harmony import */ var _home_page_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-page/home */ \"./src/home-page/home.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _home_page_onPageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home-page/onPageLoad */ \"./src/home-page/onPageLoad.js\");\n/* harmony import */ var _home_page_secondaryNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home-page/secondaryNav */ \"./src/home-page/secondaryNav.js\");\n/* harmony import */ var _home_page_home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home-page/home */ \"./src/home-page/home.js\");\n/* harmony import */ var _home_page_footer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./home-page/footer */ \"./src/home-page/footer.js\");\n\r\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/index.js?");
 
 /***/ })
 
