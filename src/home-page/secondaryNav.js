@@ -7,13 +7,13 @@ const secondaryNav = (() => {
     secondaryHeader.classList.add("secondary-nav");
     secondaryHeader.innerHTML = `
         <div class="sn-item">
-            <a href="#">Menu</a>
+            <a href="#" id="menu">Menu</a>
         </div>
         <div class="sn-item">
-            <a href="#">About</a>
+            <a href="#" id="about">About</a>
         </div>
         <div class="sn-item">
-            <a href="#">Contact</a>
+            <a href="#" id="contact">Contact</a>
         </div>
     `;
 
