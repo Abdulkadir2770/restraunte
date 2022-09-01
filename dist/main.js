@@ -36,7 +36,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _onP
   \***************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"onPageLoad\": () => (/* binding */ onPageLoad)\n/* harmony export */ });\nconst onPageLoad = () => {\r\n    const mainContainer = document.querySelector(\"#content\");\r\n\r\n    const header = document.createElement(\"header\");\r\n    header.innerHTML = `<h1>Binti's Takeout</h1> <img src=\"../dist/assets/img/logo.jpg alt=\"logo img\" id=\"logo\"/>`;\r\n\r\n    mainContainer.appendChild(header);\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/onPageLoad.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"onPageLoad\": () => (/* binding */ onPageLoad)\n/* harmony export */ });\nconst onPageLoad = () => {\r\n    const mainContainer = document.querySelector(\"#content\");\r\n\r\n    const header = document.createElement(\"header\");\r\n    header.innerHTML = `<h1>Binti's Takeout</h1> <img src='../dist/assets/img/logo.jpg' alt=\"logo img\" id=\"logo\"/>`;\r\n\r\n    mainContainer.appendChild(header);\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/onPageLoad.js?");
 
 /***/ })
 
