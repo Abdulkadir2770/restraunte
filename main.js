@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _onPageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./onPageLoad */ \"./src/onPageLoad.js\");\n/* harmony import */ var _secondaryNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./secondaryNav */ \"./src/secondaryNav.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\r\n\r\n\r\n\r\n\r\n(0,_secondaryNav__WEBPACK_IMPORTED_MODULE_1__.secondaryNav)();\n\n//# sourceURL=webpack://restraunte/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _onPageLoad__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./onPageLoad */ \"./src/onPageLoad.js\");\n/* harmony import */ var _secondaryNav__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./secondaryNav */ \"./src/secondaryNav.js\");\n/* harmony import */ var _home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./home */ \"./src/home.js\");\n\r\n\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/index.js?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"secondaryNav\": () => (/* binding */ secondaryNav)\n/* harmony export */ });\nconst secondaryNav = () => {\r\n    // secondary header\r\n    const mainContainer = document.querySelector(\"#content\");\r\n    const header = document.querySelector(\"header\");\r\n\r\n    const secondaryHeader = document.createElement(\"div\");\r\n    secondaryHeader.classList.add(\"secondary-nav\");\r\n    secondaryHeader.innerHTML = `\r\n        <div></div>\r\n        <div></div>\r\n        <div></div>\r\n    `;\r\n\r\n\r\n    secondaryHeader.insertAdjacentElement(\"afterend\", header);\r\n};\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/secondaryNav.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"secondaryNav\": () => (/* binding */ secondaryNav)\n/* harmony export */ });\nconst secondaryNav = (() => {\r\n    // secondary header\r\n    const mainContainer = document.querySelector(\"#content\");\r\n    const header = document.querySelector(\"header\");\r\n\r\n    const secondaryHeader = document.createElement(\"div\");\r\n    secondaryHeader.classList.add(\"secondary-nav\");\r\n    secondaryHeader.innerHTML = `\r\n        <div class=\"sn-item\">Menu</div>\r\n        <div class=\"sn-item\">About</div>\r\n        <div class=\"sn-item\">Contact</div>\r\n    `;\r\n\r\n\r\n    mainContainer.appendChild(secondaryHeader);\r\n})();\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/secondaryNav.js?");
 
 /***/ })
 
