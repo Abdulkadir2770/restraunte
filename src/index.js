@@ -6,11 +6,11 @@ import {footer} from "./home-page/footer";
 // tab clicking section
 const clickedTab = (() => {
     const menu = document.querySelector("#menu");
-    const about = document.querySelector("#about");
+    const home = document.querySelector("#home");
     const contact = document.querySelector("#contact");
 
     menu.setAttribute("href", "./menu.js");
-    about.setAttribute("href", "./about.js");
+    home.setAttribute("href", "https://www.google.com");
     contact.setAttribute("href", "./contact.js");
 })();
 
