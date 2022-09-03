@@ -6,6 +6,6 @@ const contactPage = () => {
     `;
 
     console.log("Contact page displayed");
-}
+};
 
 export {contactPage};
