@@ -16,6 +16,7 @@ const homePage = (() => {
    `;
 
    content.appendChild(heroSection);
+
 })();
 
 export {homePage};
