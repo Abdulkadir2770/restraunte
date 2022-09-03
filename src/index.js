@@ -3,6 +3,7 @@ import { secondaryNav } from "./home-page/secondaryNav";
 import { homePage } from "./home-page/home";
 import {footer} from "./home-page/footer";
 import { menuPage } from "./menu";
+import { contactPage } from "./contact";
 
 // tab clicking section
 const tabNavigation = (() => {
@@ -31,7 +32,7 @@ const tabNavigation = (() => {
         home.classList.remove("active");
         menu.classList.remove("active");
 
-
+        contactPage();
     });
 })();
 

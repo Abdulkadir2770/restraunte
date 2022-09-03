@@ -5,7 +5,7 @@ const menuPage = () => {
         <div>Menu</h1>
     `;
 
-    console.log(menuContent);
+    console.log("Menu page displayed");
 }
 
 export {menuPage};
