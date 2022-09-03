@@ -1,12 +1,11 @@
 const menuPage = () => {
     const container = document.querySelector(".hero-section");
-    
-    container.innerHTML = `
-        <h1>Menu page</h1>
-    `;
-    
-    container.appendChild(header);
 
+    container.innerHTML = `
+        <div>Menu</h1>
+    `;
+
+    console.log(menuContent);
 }
 
 export {menuPage};
