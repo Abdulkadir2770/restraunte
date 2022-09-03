@@ -15,7 +15,7 @@ const tabNavigation = (() => {
         menu.classList.remove("active");
         contact.classList.remove("active");
 
-        homePage();
+        homePage;
     });
 
     menu.addEventListener("click", () => {
