@@ -16,7 +16,7 @@ const tabNavigation = (() => {
         menu.classList.remove("active");
         contact.classList.remove("active");
 
-        homePage;
+        window.location.reload();
     });
 
     menu.addEventListener("click", () => {
