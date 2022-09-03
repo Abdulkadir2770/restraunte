@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\nconst contactPage = () => {\r\n    const container = document.querySelector(\".hero-section\");\r\n\r\n    container.innerHTML = `\r\n        <div>Contact us</h1>\r\n    `;\r\n\r\n    console.log(\"Contact page displayed\");\r\n}\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"contactPage\": () => (/* binding */ contactPage)\n/* harmony export */ });\nconst contactPage = () => {\r\n    const container = document.querySelector(\".hero-section\");\r\n\r\n    container.innerHTML = `\r\n        <div>Contact us</h1>\r\n    `;\r\n\r\n    console.log(\"Contact page displayed\");\r\n};\r\n\r\n\n\n//# sourceURL=webpack://restraunte/./src/contact.js?");
 
 /***/ }),
 
