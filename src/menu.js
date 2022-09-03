@@ -1,6 +1,12 @@
-const displayHomePage = (() => {
-    const content = document.querySelector("#content");
+const menuPage = () => {
+    const container = document.querySelector(".hero-section");
+    
+    container.innerHTML = `
+        <h1>Menu page</h1>
+    `;
+    
+    container.appendChild(header);
 
-    const menu = document.createElement("div");
-    menu.class
-})();
+}
+
+export {menuPage};

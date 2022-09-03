@@ -1,4 +1,4 @@
-const displayHomePage = (() => {
+const homePage = (() => {
    // the content <div>
    const content = document.querySelector("#content");
    
@@ -18,4 +18,4 @@ const displayHomePage = (() => {
    content.appendChild(heroSection);
 })();
 
-export {displayHomePage};
+export {homePage};

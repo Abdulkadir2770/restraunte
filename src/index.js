@@ -1,24 +1,37 @@
 import {onPageLoad} from "./home-page/onPageLoad";
 import { secondaryNav } from "./home-page/secondaryNav";
-import { displayHomePage } from "./home-page/home";
+import { homePage } from "./home-page/home";
 import {footer} from "./home-page/footer";
+import { menuPage } from "./menu";
 
 // tab clicking section
-const clickedTab = (() => {
+const tabNavigation = (() => {
     const home = document.querySelector("#home");
     const menu = document.querySelector("#menu");
     const contact = document.querySelector("#contact");
 
-    home.setAttribute("href", "https://www.google.com");
-    menu.setAttribute("href", "./menu.js");
-    contact.setAttribute("href", "./contact.js");
+    home.addEventListener("click", () => {
+        home.classList.add("active");
+        menu.classList.remove("active");
+        contact.classList.remove("active");
 
-    // // changes the color of the active tab
-    // const snNavbar = document.querySelector(".secondary-nav");
-    // snNavbar.addEventListener("click", (current) => {
-    //     current.target.style.cssText = "background-color: black; color: white";
-    //     console.log(current.target.children.);
-    // });
+        homePage();
+    });
+
+    menu.addEventListener("click", () => {
+        menu.classList.add("active");
+        home.classList.remove("active");
+        contact.classList.remove("active");
+
+        menuPage();
+    });
+
+    contact.addEventListener("click", () => {
+        contact.classList.add("active");
+        home.classList.remove("active");
+        menu.classList.remove("active");
+
+
+    });
 })();
-
 

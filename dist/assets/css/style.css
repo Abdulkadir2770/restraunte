@@ -44,6 +44,11 @@ header {
     font-size: 30px;
 }
 
+.active {
+    background-color: lightblue;
+    color: red;
+}
+
 a {
     text-decoration: none;
 }
