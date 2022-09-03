@@ -16,7 +16,10 @@ const tabNavigation = (() => {
         menu.classList.remove("active");
         contact.classList.remove("active");
 
-        window.location.reload();
+        setTimeout(window.location.reload(), 1000);
+
+        alert("Home page will appear in a second. Thank you!!!");
+        
     });
 
     menu.addEventListener("click", () => {
