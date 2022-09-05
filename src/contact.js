@@ -13,7 +13,7 @@ const contactPage = () => {
             <div>
                 <h4>Addrees</h4>
                 <ul>
-                    <li>12345 My Personal Address Rd, Rock Sheet TX 79890.</li>
+                    <li>12345 My Personal Address Rd, Rock Sheet TX 79891.</li>
                 </ul>
             </div>
         </div>
